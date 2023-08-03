@@ -1,6 +1,7 @@
 import React from 'react';
 import Lottie from 'react-lottie';
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import {Link} from "react-scroll";
 
 import portfolio from "../assests/portfolio/portfolio.json";
 
@@ -24,12 +25,12 @@ const HomePage = () => {
                         The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.
                     </p>
                     <div>
-                        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+                        <Link to="project" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                             Portfolio
                             <span className="group-hover:rotate-90 duration-300">
                                 <MdOutlineKeyboardDoubleArrowRight size={20} className='ml-1'/>
                             </span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div>
