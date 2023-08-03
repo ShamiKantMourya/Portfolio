@@ -52,7 +52,7 @@ const SocialIcons = () => {
                   Resume <BsFillPersonLinesFill size={25} />
                 </>
             ),
-            href: "/myResume.pdf",
+            href: "/resume.pdf",
             style: "rounded-br-md",
             download: true,
         },
