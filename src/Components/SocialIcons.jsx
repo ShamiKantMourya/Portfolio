@@ -52,7 +52,7 @@ const SocialIcons = () => {
                   Resume <BsFillPersonLinesFill size={25} />
                 </>
             ),
-            href: "/resume.pdf",
+            href: "/shami_mourya.pdf",
             style: "rounded-br-md",
             download: true,
         },
