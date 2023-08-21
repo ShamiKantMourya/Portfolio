@@ -8,26 +8,36 @@ const Project = () => {
             id:1,
             src: ProjectImage.eCommerce,
             alt: "E-Commerce Website",
+            live: "https://mycurlingtails.netlify.app/",
+            code: "https://github.com/ShamiKantMourya/E-Commerce"
         },
         {
             id:2,
             src: ProjectImage.socialMedia,
-            alt: "Social Media Website"
+            alt: "Social Media Website",
+            live: "https://harmony-of-words-6xn6.onrender.com",
+            code: "https://github.com/ShamiKantMourya/Harmony_Of_Word"
         },
         {
             id:3,
             src: ProjectImage.videoLibrary,
-            alt: "Video Library Website"
+            alt: "Video Library Website",
+            live: "https://vidbookshelf.netlify.app/",
+            code: "https://github.com/ShamiKantMourya/machine_coding_round_9"
         },
         {
             id:4,
             src: ProjectImage.recipeSite,
-            alt: "Recipe Website"
+            alt: "Recipe Website",
+            live: "https://onlinerecipebook.netlify.app/",
+            code: "https://github.com/ShamiKantMourya/machine_coding_round_5"
         },
         {
             id:5,
             src: ProjectImage.habitTracker,
-            alt: "Habit Tracker Website"
+            alt: "Habit Tracker Website",
+            live: "",
+            code: "https://github.com/ShamiKantMourya/habit_tracker"
         },
         
     ]
@@ -44,11 +54,13 @@ const Project = () => {
            {
             projects.map((project) => (
                
-                <div className='shadow-md shadow-gray-600 rounded-lg' key={project.id}>
-                    <img src= {project.src} alt= {project.alt} className='rounded-md duration-200 px-2 py-1 hover:scale-105' />
-                    <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-100 hover:scale-105'>Live</button>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-100 hover:scale-105'>Code</button>
+                <div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden' key={project.id}>
+                   <div className='w-11/12 h-3/4 m-auto overflow-hidden rounded-md duration-200 '>
+                   <img src= {project.src} alt= {project.alt} className='w-full h-full object-cover hover:scale-105 transition-all ease-in' />
+                   </div>
+                    <div className='flex items-center justify-center h-1/4'>
+                        <button className=' px-6 py-3 duration-100 hover:scale-105'>Live</button>
+                        <button className=' px-6 py-3 duration-100 hover:scale-105'>Code</button>
                     </div>
                 </div>
             ))
