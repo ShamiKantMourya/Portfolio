@@ -10,7 +10,7 @@ import SocialIcons from './Components/SocialIcons';
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <HomePage />
       <About />
       <Project />
