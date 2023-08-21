@@ -12,7 +12,7 @@ const SocialIcons = () => {
                   LinkedIn <FaLinkedin size={25} />
                 </>
             ),
-            href: "https://linkedin.com",
+            href: "https://www.linkedin.com/in/shami-kant-mourya-a00a711b2",
             style: "rounded-tr-md"
         },
         {
@@ -22,7 +22,7 @@ const SocialIcons = () => {
                   Twitter <FaTwitter size={25} />
                 </>
             ),
-            href: "https://twitter.com",
+            href: "https://twitter.com/shami_mourya",
            
         },
         {
@@ -32,7 +32,7 @@ const SocialIcons = () => {
                   Github <FaGithub size={25} />
                 </>
             ),
-            href: "https://github.com",
+            href: "https://github.com/ShamiKantMourya",
             
         },
         {
