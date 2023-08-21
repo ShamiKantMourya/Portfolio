@@ -43,7 +43,7 @@ const Skills = () => {
       id: 1,
       src: Skill.express,
       alt: "Express",
-      style: "shadow-white-500"
+      style: "shadow-white"
     },
   ]
   return (
@@ -57,7 +57,7 @@ const Skills = () => {
           {
             mySkill.map((skill) =>
               <div className={`shadow-md hover:scalae-105 duration-500 py-2 rounded-lg ${skill.style}`} key={skill.id}>
-                <img src={skill.src} alt={skill.alt} className='w-20 mx-auto' />
+                <img src={skill.src} alt={skill.alt} className='w-20 mx-auto h-16' />
                 <p className='mt-4'>{skill.alt}</p>
               </div>
             )
