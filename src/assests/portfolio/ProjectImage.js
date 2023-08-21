@@ -3,7 +3,7 @@ const ProjectImage = {
     socialMedia: require('./social.JPG'),
     videoLibrary: require('./videolibrary.PNG'),
     recipeSite: require('./recipesite.JPG'),
-    habitTracker: require('./habitTracker.JPG'),
+    habitTracker: require('./habit.JPG'),
 };
 
 export default ProjectImage;
