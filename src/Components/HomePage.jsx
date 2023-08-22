@@ -3,7 +3,6 @@ import Lottie from "react-lottie";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
-import Navbar from "./Navbar"
 import portfolio from "../assests/portfolio/portfolio.json";
 
 const HomePage = () => {
@@ -16,8 +15,6 @@ const HomePage = () => {
     },
   };
   return (
-    <>
-    <Navbar />
     <div
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
@@ -52,7 +49,6 @@ const HomePage = () => {
         </div>
       </div>
     </div>
-    </>
   );
 };
 
